@@ -51,7 +51,7 @@ public class MenuManager : MonoBehaviour
         ship.capsuleMaterial = capsuleColors[capsuleIndex];
         ship.shipMaterial = metalColors[shipIndex];
         ship.holderMaterial = metalColors[holderIndex];
-        ship.lightsMaterial = metalColors[lightsIndex];
+        ship.lightsMaterial = neonColors[lightsIndex];
         ship.ColourShipNow();
         shipCodeText.text = permutationCode.ToString();
     }
@@ -69,7 +69,7 @@ public class MenuManager : MonoBehaviour
         ship.capsuleMaterial = capsuleColors[capsuleIndex];
         ship.shipMaterial = metalColors[shipIndex];
         ship.holderMaterial = metalColors[holderIndex];
-        ship.lightsMaterial = metalColors[lightsIndex];
+        ship.lightsMaterial = neonColors[lightsIndex];
         ship.ColourShipNow();
         shipCodeText.text = permutationCode.ToString();
     }
@@ -87,7 +87,7 @@ public class MenuManager : MonoBehaviour
         ship.capsuleMaterial = capsuleColors[capsuleIndex];
         ship.shipMaterial = metalColors[shipIndex];
         ship.holderMaterial = metalColors[holderIndex];
-        ship.lightsMaterial = metalColors[lightsIndex];
+        ship.lightsMaterial = neonColors[lightsIndex];
         ship.ColourShipNow();
         shipCodeText.text = permutationCode.ToString();
     }
@@ -116,7 +116,7 @@ public class MenuManager : MonoBehaviour
         ship.capsuleMaterial = capsuleColors[capsuleIndex];
         ship.shipMaterial = metalColors[shipIndex];
         ship.holderMaterial = metalColors[holderIndex];
-        ship.lightsMaterial = metalColors[lightsIndex];
+        ship.lightsMaterial = neonColors[lightsIndex];
         ship.ColourShipNow();
         permutationCode++;
         shipCodeText.text = permutationCode.ToString();
